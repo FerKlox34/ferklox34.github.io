@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Cuida</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="img/logo.jpg" class="logo" alt="Logo de Mind Cuida">
+        <input type="checkbox" id="menu">
+        <label id="men" for="menu">
+            <img src="img/menu.png" class="menu-icono">
+        </label>
+        <ul class="menu">
+            <li class="item"><a onclick="mostrarSeccion('home')">Home</a></li>
+            <li class="item"><a onclick="mostrarSeccion('about-us')">About Us</a></li>
+            <li class="item"><a onclick="mostrarSeccion('community')">Community</a></li>
+            <li class="item"><a onclick="mostrarSeccion('contact')">Contact</a></li>
+            <li class="item"><a onclick="mostrarSeccion('download-app')">Download App</a></li>
+        </ul>
+    </header>
+
+    <section id="home">
+        
+        
+        <div class="container-content">
+            <img src="img/salud.jpg" class="logo-salud" alt="Imagen de Salud">
+            <div class="bienvenido">
+                <h2 id="titu">HOME</h2>
+                <p id="mind">Mind Cuida!</p>
+                <p>BIENVENIDOS A NUESTRO SITIO WEB</p>
+                <button onclick="mostrarSeccion('Plan')">SABER MAS</button>
+            </div>
+        </div>
+    
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-row">
+                    <div class="footer-links">
+                        <h1>Accesos</h1>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Download App</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h1>Siguenos</h1>
+                        <div class="social-link">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </footer>
+
+
+
+    </section>
+
+    <section id="about-us" style="display: none;">
+        <div class="container-about-us">
+            <div class="content-about-us">
+                <H3>ABOUT US</H3>
+                <p>Somos <strong>NEXWAVE</strong> una empresa emergente
+                conformada por un conjunto de jóvenes de la Universidad Peruana
+                de Ciencias Aplicadas, quienes están entusiasmados por emplear la
+                tecnologia con el propósito de abordar desafiós y brindar asistencia
+                a la sociedad
+            </p>
+            </div>
+            <img id="img3" src="img/personas.webp" alt="Linda imagen">
+        </div>
+        
+        <div class="equipo">
+            <h4>Conoce a nuestro equipo</h4>
+            <div class="integrantes">
+                <div id="integrante">
+                    <img src="img/chris.jpg" alt="Christian Matos">
+                    <h5>Christian Matos</h5>
+                    <p id="info">Ing. Software</p>
+                </div>
+                <div id="integrante">
+                    <img src="img/jimmy.jpg" alt="Jimmy Meléndez">
+                    <h5>Jimmy Meléndez</h5>
+                    <p id="info">Ing. Sistemas</p>
+                </div>
+                <div id="integrante">
+                    <img src="img/her.jpg" alt="Heransue Geldres">
+                    <h5>Heransue Geldres</h5>
+                    <p id="info">Ing. Sistemas</p>
+                </div>
+                <div id="integrante">
+                    <img src="img/hernan.jpg" alt="Hernan Morales">
+                    <h5>Hernan Morales</h5>
+                    <p id="info">Ing. Software</p>
+                </div>
+                <div id="integrante">
+                    <img src="img/denzel.jpg" alt="Denzell Blas">
+                    <h5>Denzell Blas</h5>
+                    <p id="info">Ing. Sistemas</p>
+                </div>
+            </div>
+
+        </div>
+
+        
+    </section>
+
+    <section id="community" style="display: none;">
+        <div class="container-community">
+            <p id="pop">COMMUNITY</p>
+            <p id="part1">testimonios</p>
+            <div class="testimonios">
+                <div id="testimonio">
+                    <img src="img/p2.jpeg" id="imgpersona1" alt="">
+                    <div>
+                        <div class="nombre-test">
+                            <p>PACIENTE</p><p>MATHIAS GALERO</p>
+                        </div>
+                        <div class="comen-test">
+                            <p><i>"Esta aplicación es una bendición: accesible,privada
+                                y llena de recursos útiles, me han brindado apoyo
+                                emocional y un sentido de comunidad"</i></p>
+    
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div id="testimonio1">
+                    <div>
+                        <div class="nombre-test1">
+                            <p>SOFIA RODRIGUEZ</p><p>PSICOLOGA</p>
+                        </div>
+                        <div class="comen-test1">
+                            <p><i>"Como profesional, la app proporciona un entorno seguro y accesible
+                                para interactuar con los pacientes, facilitando el seguimiento y el 
+                                acceso a recursos educativos. Simplifica la terapia y promuve el
+                                enfoque en la salud mental"</i></p>
+    
+                        </div>
+
+                    </div>
+                    
+                    <img src="img/p1.jpeg" id="imgpersona2" alt="">
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <section id="contact" style="display: none;">
+        <div class="container-contact">
+            
+            <div class="dolor">
+                <div id="cont">
+                    <h6>CONTACT</h6>
+                </div>
+                <div class="ayuda">
+                    <div>
+                        <p id="atun">¿Como podemos<br>ayudarte?</p>
+
+                    </div>
+                    
+                    <div class="social-link-ayuda">
+                        <p id="parr"><a href="#"><i class="fab fa-facebook-f"></i></a>Mind Cuida</p>
+                        <p id="parr"><a href="#"><i class="fab fa-instagram"></i></a>Mind Cuida</p>
+                        <p id="parr"><a href="#"><i class="fab fa-twitter"></i></a>Twitter</p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="formulario">
+
+                <form id="mu" action="">
+                    <p>Si tienes alguna duda, cometario o sugerencias, puedes
+                        contactarnos y nos cumunicaremos contigo lo antes posible.
+                    </p>
+                    <label id="textbox" for="nombre">NOMBRE COMPLETO*</label><br>
+                    <input id="puts" type="text"><br>
+                    <label id="textbox" for="correo-electronico">CORREO ELECTRONICO*</label><br>
+                    <input id="puts" type="text"><br>
+                    <label id="textbox" for="comentario">COMENTARIO*</label><br>
+                    <textarea id="comentario" id="" cols="30" rows="5"></textarea>
+                </form>
+                
+                <div class="confirmacion">
+                    <input type="checkbox" id="check"><span>He leido y acepto
+                        la politica de privacidad
+                    </span>
+                </div>
+
+                <button onclick="validarFormulario()" id="confirmar" >ENVIAR</button>
+
+
+            </div>
+           
+
+            
+            
+
+        </div>
+              
+
+        
+
+    </section>
+
+    <section id="download-app" style="display: none;">
+        <div class="container-download-app">
+            <div class="content-download-app">
+                <p id="well">NUESTRA APP MOVIL</p>
+                <p>Nuestra aplicación ofrece chat y videollamadas
+                    con psicólogos, seguimiento del bienestar emocional,
+                    recursos educativos sobre salud mental y una comunidad
+                    de apoyo privada.
+                    <br><br>
+                    <strong><em>Nuestro objetivo es mejorar la salud mental y
+                        brindar apoyo en momentos de crisis
+                    </em></strong>
+                </p>
+
+            </div>
+            <img src="img/public.png" id="img4" alt="">
+        </div>
+
+        <div class="download">
+            <p>DISPONIBLE EN PLAY STORE</p>
+            <div class="descargar">
+                <button>ANDROID</button>
+                <button>IOS</button>
+            </div>
+        </div>
+
+
+    </section>
+    
+    <section id="Plan" style="display: none;">
+        <div class="container-plan">
+            <div class="content-plan">
+                <p id="title-plan">PLANES</p>
+                <p>Mind Cuida es una plataforma en línea que conecta a personas que buscan apoyo en salud
+                    mental con profesionales certificados y recursos relacionados con la salud mental
+                </p>
+            </div>
+
+            <div class="planes">
+                <div class="card-plan">
+                    <div class="img-plan-paciente">
+                        <img id="img-plan" src="img/p3.webp" alt="">
+                        <p>Pacientes</p>
+                    </div>
+                    <div class="content-plan-usuario">
+                        
+                        <ul>
+                            <li>* Cuenta con comunidad de apoyo</li>
+                            <li>* Las tarifas son de S/.120 a S/.150 semanal</li>
+                            <li>* Acceso conveniente y confiable a apoyo</li>
+                            <li>* En salud mental a través de múltiples canales, desde chat</li>
+                            <li>* Acceso de recursos educativos de salud mental</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="card-plan">
+                    <div class="plan-paciente">
+                        <img id="img-plan" src="img/p4.webp" alt="">
+                        <p>Psicologos</p>
+                    </div>
+                    <div class="content-plan-usuario">
+                        
+                        <ul>
+                            <li>* Facilidad en la Gestión de Citas y Pagos</li>
+                            <li>* Flexibilidad horaria</li>
+                            <li>* Herramientas de Seguimiento y Evaluación</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <button onclick="mostrarSeccion('home')">Volver</button>
+
+        </div>
+
+    </section>
+    
+</body>
+
+<script src="script.js"></script>
+
+</html>

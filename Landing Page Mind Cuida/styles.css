@@ -1,0 +1,930 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 100px;
+    background-color: #f8f9f5;
+}
+
+.logo {
+    height: 50px;
+    
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    
+}
+
+.item a {
+    text-decoration: none;
+    color: #91cfe7;
+}
+
+.item a:hover{
+    color: #58b8d5;
+
+}
+
+#menu {
+    display: none;
+
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+#men {
+    cursor: pointer;
+    display: none;
+}
+/*---------------------------------------------------*/
+/* Content */
+
+.container-content {
+    padding-top: 6.5%;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    
+}
+
+.logo-salud {
+    width: 50%;
+    height: 100%;
+}
+
+.bienvenido {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+
+#titu {
+    font-size: 20px;
+    flex-wrap: wrap;
+    color: black;
+    margin-bottom: 45px;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.bienvenido #titu {
+    margin-top: 25px;
+}
+
+#mind {
+    font-size: 60px;
+    color: #58b8d5;
+    margin-bottom: 25px;
+    font-weight: 500;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+p {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+button {
+    position: relative;
+    font-weight: bold;
+    padding: 10px 50px;
+    border: none;
+    background-color: #AEDBF0;
+    color: black;
+    cursor: pointer;
+    border-radius: 4%;
+
+}
+
+button:hover {
+    color: #58b8d5;
+}
+
+
+
+
+/*footer*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #0A1B26;
+    padding: 80px 0;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer-links {
+    width: 30%;
+    padding: 0 15px;
+}
+
+.footer-links h1{
+    font-size: 20px;
+    color: #AEDBF0;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #AEDBF0;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #AEDBF0;
+    padding-left: 6px;
+}
+
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all .5s ease;
+
+}
+
+.social-link a:hover {
+    background-color: #AEDBF0;
+
+}
+
+/*--------------------------------------------------------------------*/
+
+.container-about-us {
+    padding-top: 7%;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    height: auto;
+}
+
+#img3 {
+    width: 200px;
+    height: 200px;
+}
+
+.content-about-us {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.content-about-us p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.content-about-us h3 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid black;
+}
+
+.equipo {
+    margin-top: 30px;
+    text-align: left;
+    
+}
+
+h4 {
+    border-bottom: 2px solid black;
+    margin-left: 20px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.integrantes {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#integrante {
+
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#integrante img {
+    width: 100px;
+    height: 100px;
+}
+
+#integrante p {
+    font-size: 10px;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+.container-contact {
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+#cont {
+    width: 300px;
+    height: 300px;
+    font-size: 50px;
+}
+
+#cont h6 {
+    border-bottom: 2px solid #0A1B26;
+    padding-top: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+
+.formulario {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #0A1B26;
+    background-color: #A8B6BF;
+    text-align: center;
+    
+}
+
+.ayuda {
+    width: 300px;
+    height: 200px;
+    background-color: #6c808c;
+    color: white;
+    text-align: left;
+    border: 1px solid black;
+
+}
+
+.formulario p {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+.formulario #textbox {
+    text-align: left;
+    
+}
+#mu input {
+    text-align: left;
+    padding-right: 45%;
+    margin-bottom: 20px;
+
+}
+
+#puts {
+    background-color: #D7E9F1;
+}
+
+.formulario #comentario {
+    text-align: left;
+    padding-right: 30%;
+    margin-bottom: 20px;
+    background-color: #D7E9F1;
+}
+.confirmacion {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#confirmar {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.confirmacion input {
+    margin-right: 5px;
+    
+}
+
+.ayuda #atun {
+    border-bottom: 8px solid white;
+
+}
+
+.ayuda p {
+    font-size: 9px;
+    margin-left: 10px;
+    font-weight: bold;
+    
+}
+
+#atun {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 5%;
+    font-size: 20px;
+    border-bottom: 8px solid white;
+    
+
+}
+
+#parr {
+    margin-bottom: 5px;
+}
+
+.social-link-ayuda {
+    display: flex;
+    
+}
+
+.social-link-ayuda a {
+    display: inline-block;
+    min-height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    color: white;
+    transition: all .5s ease;
+    
+
+}
+
+.social-link-ayuda a:hover {
+    background-color: #AEDBF0;
+
+}
+
+
+/*-------------------------------------------------------------*/
+
+.container-download-app {
+    padding-top: 10%;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: wrap;
+}
+
+.content-download-app {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.content-download-app p {
+    font-size: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.content-download-app #well {
+    font-size: 40px;
+    border-bottom: 2px solid black;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#img4 {
+    width: 50%;
+}
+
+.download {
+    text-align: center;
+}
+
+.download p {
+    border-bottom: 2px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 30px;
+}
+
+/*--------------------------------------------------------------*/
+
+.container-community{
+    margin-top: 10%;
+    text-align: center;
+    
+}
+
+#pop {
+    border-bottom: 2px solid black;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 40px;
+}
+
+#part1 {
+    font-size: 30px;
+}
+
+#testimonio {
+    width: 100%;
+    height: 300px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+}
+
+#imgpersona1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid black;
+    z-index: 2;
+
+}
+
+.nombre-test {
+    width: 700px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding-right: 10%;
+    padding-left: 15%;
+    background-color: #91cfe7;
+    position: relative;
+    right: 100px;
+    z-index: 1;
+}
+
+.nombre-test p {
+    font-size: 30px;
+    color: white;
+}
+
+.comen-test {
+    width: 800px;
+    height: 100px;
+    border: 2px solid black;
+    position: relative;
+    right: 100px;
+    z-index: 1;
+    border-bottom-right-radius: 50px ;
+    border-top-right-radius: 50px ;
+    
+}
+
+.comen-test p {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    
+}
+
+#imgpersona2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid black;
+    z-index: 2;
+}
+
+#testimonio1 {
+    width: 100%;
+    height: 200px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 20px;
+    
+}
+
+.nombre-test1 {
+    width: 700px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding-right: 15%;
+    padding-left: 8%;
+    background-color: #91cfe7;
+    position: relative;
+    left: 200px;
+    z-index: 1;
+}
+
+.nombre-test1 p {
+    font-size: 30px;
+    color: white;
+}
+
+.comen-test1 {
+    width: 800px;
+    height: 110px;
+    border: 2px solid black;
+    position: relative;
+    left: 50px;
+    z-index: 1;
+    border-bottom-left-radius: 50px ;
+    border-top-left-radius: 50px ;
+    
+}
+
+.comen-test1 p {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    
+}
+
+/*--------------------Plan-------------------------------*/
+
+.container-plan {
+    margin-top: 7%;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+
+.content-plan {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#title-plan {
+    font-size: 40px;
+    border-bottom: 2px solid black;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.container-plan p {
+    font-size: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.planes {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 7%;
+    
+}
+
+.card-plan {
+    width: 350px;
+    height: auto;
+    border: 2px solid black;
+    background-color: #D7E9F1;
+    border-radius: 10%;
+    margin-bottom: 50px;
+}
+
+#img-plan {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.content-plan-usuario {
+    padding-left: 5%;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.content-plan-usuario li {
+    margin-bottom: 15px;
+    
+}
+
+.container-plan button {
+    margin-bottom: 20px;
+}
+
+@media(max-width:991px) {
+    .menu {
+        padding: 30px;
+        margin: 0;
+    }
+
+    #men {
+        display: initial;
+    }
+
+    .menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #f8f9f5;
+        display: none;
+    }
+
+    .item {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+
+    #menu:checked ~ .menu {
+        display: initial;
+    }
+
+    .container-content {
+        padding-top: 10%;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        
+    }
+
+    .logo-salud {
+        width: 100%;
+        height: auto;
+        display: flex;
+        
+    }
+
+    #titu {
+        margin-top: 20px;
+    }
+
+    /*------------------------------------------------------*/
+    /*Seccion about-us*/
+
+    .container-about-us {
+        margin-top: 20%;
+        display: flex;
+        
+    }
+
+    #img3 {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .content-about-us {
+        width: 100%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    /*------------------------------------------------------*/
+    /*Seccion  contact*/
+
+    .container-contact {
+        margin-top: 15%;
+        margin-bottom: 40px;
+        
+    }
+    
+    .dolor {
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #cont {
+        margin-top: 20px;
+        
+    }
+    
+    .ayuda {
+        width: 100%;
+        
+    }
+
+    .formulario {
+        width: 100%;
+        
+    }
+
+    
+
+    /*--------------------------------------------------*/
+    /*DONWLOAD APP*/
+    
+    .container-download-app {
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        
+    
+    }
+    
+    .container-download-app {
+        text-align: center;
+        
+    }
+
+    .content-download-app {
+        width: 100%;
+        
+    }
+
+    .download {
+        margin-bottom: 10%;
+        margin-top: 20px;
+    }
+
+    /*-------------------------------*/
+    .container-community{
+        margin-top: 25%;
+        text-align: center;
+        
+    }
+
+    #pop {
+        
+        margin-left: 14%;
+        margin-right: 14%;
+        
+    }
+    #testimonio {
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 10%;
+        width: 400px;
+        height: 400px;
+        margin-bottom: 50px;
+        
+    }
+
+    #imgpersona1 {
+        margin-right: 50%;
+    }
+
+    
+    .nombre-test {
+        width: 400px;
+        height: 20px;
+        
+    }
+
+    .nombre-test p {
+        font-size: 15px;
+        color: white;
+    }
+
+    .comen-test {
+        width: 400px;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border: none;
+        
+    }
+
+    #imgpersona2 {
+        margin-left: 35%;
+        
+    }
+
+    #testimonio1 {
+        display: flex;
+        border: 2px solid black;
+        border-radius: 10%;
+        width: 400px;
+        height: 450px;
+        flex-direction: column-reverse;
+        margin-left: 26%;
+    }
+
+    .nombre-test1 {
+        width: 400px;
+        height: 20px;
+        right: 0;
+        left: 50px;
+
+    }
+
+    .nombre-test1 p {
+        font-size: 15px;
+        color: white;
+    }
+
+    .comen-test1 {
+        width: 400px;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border: none;
+
+    }
+
+    /*-------------------------------------------*/
+    /*Plan*/
+
+    .content-plan {
+        margin-top: 25%;
+    }
+
+    .planes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-plan {
+        margin-bottom: 20px;
+    }
+
+    .container-plan button {
+        margin-bottom: 20px;
+    } 
+
+
+
+
+
+}
+
+
