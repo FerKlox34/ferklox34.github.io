@@ -1,0 +1,18 @@
+US07.Feature: Realizar Sesiones de Videollamada
+
+    Como usuario interesado en la aplicación de Mind Cuida
+    quiero realizar sesiones de videollamada seguras a través de la aplicación.
+
+Scenario E07: Iniciar una Sesión de Videollamada
+    Given que <el_usuario> desea realizar una sesión de videollamada segura
+    When <el_usuario> accede a la aplicación
+    And selecciona la opción "Iniciar Videollamada"
+    Then se le pedirá que elija al profesional con el que desea tener la videollamada.
+
+Examples: Inputs
+    | el_usuario          |
+    | Marta Sánchez        |
+
+Examples: Outputs
+    | seleccionar_profesional |
+    | Lista de profesionales  |

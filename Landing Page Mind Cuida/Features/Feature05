@@ -1,0 +1,19 @@
+US05.Feature: Programación de Sesiones de Apoyo
+
+    Como usuario interesado en la aplicación de Mind Cuida
+    quiero programar una sesión de apoyo con un profesional certificado en un horario conveniente.
+
+Scenario E05: Programar una Sesión de Apoyo
+    Given que <el_usuario> desea programar una sesión de apoyo con un profesional certificado
+    When <el_usuario> accede a la aplicación
+    And selecciona la opción "Programar Sesión"
+    Then se le mostrará un calendario con disponibilidad de sesiones.
+
+Examples: Inputs
+    | el_usuario          |
+    | María García        |
+    | Luis Martínez       |
+
+Examples: Outputs
+    | disponibilidad_de_sesiones |
+    | Calendario                 |

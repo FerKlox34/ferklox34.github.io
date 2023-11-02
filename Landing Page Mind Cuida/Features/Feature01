@@ -1,0 +1,19 @@
+US01.Feature: Registrarse en Mind Cuida
+
+    Como usuario interesada en la aplicación de mindcuida
+    quiero poder registrarme para acceder a los servicios de apoyo en salud mental
+
+Scenario E01: Registro de Usuario
+Given que <el_usuario_interesado_en_la_aplicacion_mindcuida> desea acceder a los servicios 
+de apoyo en salud mental de manera personalizada
+When <el_usuario_interesado_en_la_aplicacion_mindcuida> accede a <Iniciar_Sesion>
+And selecciona la opción <Registrarse>
+Then se le solicitarán sus datos personales, incluyendo nombre, dirección de correo electrónico y contraseña.
+
+Examples: Inputs
+    |el_usuario_interesado_en_la_aplicacion_mindcuida|
+    |Carlos Igarza                                   | 
+
+Examples: Outputs
+    |opciones_de_inicio|
+    |nombre, apellidos, correo, contraseña|

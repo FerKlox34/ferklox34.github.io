@@ -1,0 +1,18 @@
+US11.Feature: Acceder al Historial de Sesiones de Usuarios
+
+    Como usuario interesado en la aplicación de Mind Cuida
+    quiero acceder al historial de sesiones con los usuarios con los que he trabajado para realizar un seguimiento.
+
+Scenario E11: Acceder al Historial de Sesiones de Usuarios
+    Given que <el_usuario> desea acceder al historial de sesiones con otros usuarios
+    When <el_usuario> accede a la aplicación
+    And selecciona la opción "Historial de Sesiones de Usuarios"
+    Then se mostrará una lista de las sesiones previas con los usuarios con los que ha interactuado.
+
+Examples: Inputs
+    | el_usuario          |
+    | Laura Rodríguez     |
+
+Examples: Outputs
+    | lista_de_sesiones_previas |
+    | Sesiones con otros usuarios |

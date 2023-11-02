@@ -1,0 +1,18 @@
+US04.Feature: Explorar Perfiles de Profesionales
+
+    Como usuario interesado en la aplicación de Mind Cuida
+    quiero poder ver perfiles detallados de los psicólogos y terapeutas certificados
+
+Scenario E04: Obtener información detallada de los especialistas
+    Given que <el_usuario> desea conocer información detallada de los especialistas
+    When <el_usuario> accede a la aplicación
+    And selecciona la opción "Información"
+    Then se mostrará información detallada de cada especialista, incluyendo su experiencia y enfoques de tratamiento
+
+Examples: Inputs
+    | el_usuario          |
+    | Ana López           |
+
+Examples: Outputs
+    | información_detallada            |
+    | nombre, experiencia, enfoques     |
